@@ -40,6 +40,7 @@
                 android:layout_height="match_parent" />
 
             <TextView
+                android:id="@+id/text1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="VEG 8P" />
@@ -59,6 +60,7 @@
                 android:layout_height="match_parent" />
 
             <TextView
+                android:id="@+id/text2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NON-VEG 8p" />
@@ -78,6 +80,7 @@
                 android:layout_height="match_parent" />
 
             <TextView
+                android:id="@+id/text3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="VEG 5p" />
@@ -98,6 +101,7 @@
                 android:layout_height="match_parent" />
 
             <TextView
+                android:id="@+id/text4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NON-VEG 5p" />
