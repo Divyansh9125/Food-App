@@ -21,6 +21,14 @@ public class Giver_activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button home_btn = findViewById(R.id.home_btn);
+        home_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Giver_activity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
