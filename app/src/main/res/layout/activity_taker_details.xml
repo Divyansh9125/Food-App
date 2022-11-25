@@ -14,22 +14,29 @@
         android:layout_marginTop="50dp"
         android:text="Your order ID is:"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/level"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/app_title"
-        android:layout_centerHorizontal="true"
-        android:hint="K34U67"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <Button
-        android:id="@+id/next_level_button"
+        android:id="@+id/Order_Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Back to home" />
+
+    <Button
+        android:id="@+id/Home_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Back to home" />
+    <Button
+        android:id="@+id/next_level_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="430dp"
+        android:text="Place your order" />
 
 </RelativeLayout>
