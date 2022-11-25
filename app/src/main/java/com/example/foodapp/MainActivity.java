@@ -9,18 +9,26 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    Intent intent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        Button button = findViewById(R.id.share_btn);
+
+        intent = new Intent(this,Giver_activity.class);
 //        button.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this,Giver_activity.class);
+//                Intent intent = new Intent(this,Giver_activity.class);
 //                startActivity(intent);
 //            }
 //        });
+    }
+
+    public void onClick(View view){
+        startActivity(intent);
     }
     }
 
