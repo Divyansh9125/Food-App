@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                choice="v8";
             }
         });
+        // details
         RelativeLayout card2=findViewById(R.id.card_2);
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
