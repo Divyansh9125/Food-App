@@ -105,6 +105,12 @@
             android:layout_height="wrap_content"
             android:onClick="onClick"
             android:text="Want to share?" />
+
+        <Button
+            android:id="@+id/Giver_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add your details" />
     </LinearLayout>
 
 
