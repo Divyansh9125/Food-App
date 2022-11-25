@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Giver_activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="67dp"
+        android:layout_height="23dp"
+        android:text="Order id"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="135dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="238dp"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="162dp"
+        android:layout_height="30dp"
+        android:text="Give Or share "
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Give"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="84dp"
+            android:layout_height="42dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Share"
+            tools:layout_editor_absoluteX="248dp"
+            tools:layout_editor_absoluteY="282dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:text="Meal Choice:"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="123dp"
+        android:layout_height="52dp"
+        android:text="8cp veg"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="125dp"
+        android:layout_height="51dp"
+        android:text="5cp veg"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:text="8cp Non-veg"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="129dp"
+        android:layout_height="54dp"
+        android:text="5cp Non-veg"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <Button
+        android:id="@+id/Submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+</LinearLayout>
