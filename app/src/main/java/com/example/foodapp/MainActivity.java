@@ -13,6 +13,7 @@ import android.widget.RelativeLayout;
 public class MainActivity extends AppCompatActivity {
 
     Intent intent;
+    String choice="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,Taker_details.class);
                 startActivity(intent);
-
+               choice="v8";
             }
         });
         RelativeLayout card2=findViewById(R.id.card_2);
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,Taker_details.class);
                 startActivity(intent);
-
+                choice="n8";
             }
         });
         RelativeLayout card3=findViewById(R.id.card_3);
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,Taker_details.class);
                 startActivity(intent);
-
+                choice="v5";
             }
         });
         RelativeLayout card4=findViewById(R.id.card_4);
@@ -63,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,Taker_details.class);
                 startActivity(intent);
-
+                choice="n5";
             }
         });
 
